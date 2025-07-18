@@ -79,7 +79,7 @@ local function PeriodicPriceUpdate()
 end
 
 -- Timer für periodische Preisaktualisierung
-local refreshMinutes = 1 -- hier einstellbar, z.B. alle 10 Minuten
+local refreshMinutes = 1 -- hier einstellbar, z.B. alle 1 Minuten
 CreateThread(function()
     while true do
         Wait(refreshMinutes * 60000)
